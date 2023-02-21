@@ -14,3 +14,11 @@ li:hover {
   cursor: pointer;
   background-color: white;
 }
+
+.books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}

@@ -30,6 +30,7 @@ export const ShowComments = () => {
 	return (
 	<div className="App">
 		<button onClick={() => navigate('/effects')}>Go to Effects</button>
+		<button onClick={() => navigate('/books')}>Go to Books</button>
 		<input onChange={handleSearch} />
 		{/* {isPending && <h2>Loading...</h2>} */}
 		<Comments entities={filterBySearch(comments, search)}/>

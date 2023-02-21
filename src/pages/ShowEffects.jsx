@@ -14,7 +14,7 @@ export const ShowEffects = () => {
 		<List />
 		<Debounce />
 		<Request />
-		<button onClick={() => navigate('/')}>Go to Comments</button>
+		<button onClick={() => navigate('/books')}>Go to Books</button>
     </div>
 	)
 }
