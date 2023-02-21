@@ -2,7 +2,7 @@ import React, {useState, useEffect, useTransition} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Comments from '../Comments';
 
-const filterBySearch = (entities, search) => {
+export const filterBySearch = (entities, search) => {
   return entities.filter(item => item.name.concat(item.body).includes(search))
 }
 
